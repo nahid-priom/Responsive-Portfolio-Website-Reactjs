@@ -1,0 +1,48 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+
+}
+
+.about .left p{
+    margin: 1.2rem 0;
+}
+
+.about .right{
+    max-width: 700px;
+}
+
+.right{
+    align-items: center;
+    margin-right: 50px;
+}
+
+.right img{
+    width: 70%;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+@media screen and (max-width :640px){
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        align-items: center;
+        margin: 0;
+    }
+}
